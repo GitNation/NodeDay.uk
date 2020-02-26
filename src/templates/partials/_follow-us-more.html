@@ -4,7 +4,7 @@
 		<p class="follow-us__desc">
 			We all speak the same language which means there is always something to talk about. Subscribe to our social channels to not miss news and goodies.</br></br>
 
-			Newsletter is the most engaging way we communicate. Subscribe to the newspaper of JSNation!
+			Newsletter is the most engaging way we communicate. Subscribe to the newspaper of Node Day UK!
 		</p>
 
 		<div class="follow-us__right">
@@ -16,42 +16,50 @@
 				<p class="follow-us__socials-title">Follow us for updates:</p>
 
 				<ul class="socials">
-					<li class="socials__item">
-						<a href="https://www.facebook.com/ReactAdvanced" target="_blank" class="socials__link">
-							<svg class="socials__img fb" role="img" aria-hidden="true">
-								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#fb"></use>
-							</svg>
-						</a>
-					</li>
-					<li class="socials__item">
-						<a href="http://twitter.com/reactadvanced" target="_blank" class="socials__link">
-							<svg class="socials__img tw" role="img" aria-hidden="true">
-								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#tw"></use>
-							</svg>
-						</a>
-					</li>
-					<li class="socials__item">
-						<a href="https://youtube.com/c/ReactConferences" target="_blank" class="socials__link">
-							<svg class="socials__img yt" role="img" aria-hidden="true">
-								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#yt"></use>
-							</svg>
-						</a>
-					</li>
-					<li class="socials__item">
-						<a href="https://medium.com/@ReactAdvanced" target="_blank" class="socials__link">
-							<svg class="socials__img med" role="img" aria-hidden="true">
-								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#med"></use>
-							</svg>
-						</a>
-					</li>
-				</ul>
+            {% if conference.facebookUrl %}
+            <li class="socials__item">
+              <a href="{{ conference.facebookUrl }}" target="_blank" class="socials__link">
+                <svg class="socials__img fb" role="img" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#fb"></use>
+                </svg>
+              </a>
+            </li>
+            {% endif %}
+            {% if conference.twitterUrl %}
+            <li class="socials__item">
+              <a href="{{ conference.twitterUrl }}" target="_blank" class="socials__link">
+                <svg class="socials__img tw" role="img" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#tw"></use>
+                </svg>
+              </a>
+            </li>
+            {% endif %}
+            {% if conference.youtubeUrl %}
+            <li class="socials__item">
+              <a href="{{ conference.youtubeUrl }}" target="_blank" class="socials__link">
+                <svg class="socials__img yt" role="img" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#yt"></use>
+                </svg>
+              </a>
+            </li>
+            {% endif %}
+            {% if conference.mediumUrl %}
+            <li class="socials__item">
+              <a href="{{ conference.mediumUrl }}" target="_blank" class="socials__link">
+                <svg class="socials__img med" role="img" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#med"></use>
+                </svg>
+              </a>
+            </li>
+            {% endif %}
+        </ul>
 			</div>
 		</div>
 
-		<form class="form-follow">
-			<input class="form-follow__input" type="text" placeholder="Email address">
+		<form class="form-follow" action="https://nodeday.us19.list-manage.com/subscribe/post?u=b14af1c017e02327449477ad8&amp;id=3fbb2e5faa" method="post" target="_blank" novalidate>
+			<input class="form-follow__input" placeholder="Email address" type="email" value="" name="EMAIL">
 			<button class="form-follow__submit basic-btn btn-white" type="submit">Submit {{mixins.icon('arrow-link')}}</button>
 		</form>
-		
+
 	</div>
 </section>

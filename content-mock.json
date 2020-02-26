@@ -1,23 +1,24 @@
 {
   "pagesPieceOfTexts": {
     "event__descr": "<p>JSNation is going to be the main happening of the JS scene in 2020. Want to know the future of the JavaScript ecosystem and get connected to the stellar crowd? The conference unites library authors and core teams with engineers having a summer Amsterdam as a background. We recognize JavaScript development as an art of engineering, and that's why the conference offers both a JS-driven art exhibition and audiovisual performances powered with JavaScript during the afterparty. The next day after the event, we'll explore the well-known Amsterdam museums together, and later on, we'll gather for a picnic/hangout in the Vondelpark. </p>\n",
-    "faq__descr": "<p>Our team is always striving to provide the best support to help you with any questions related to conference attendance and to make information more transparent and instantly accessible, we've started gathering most frequently asked questions on the page below.</p>\n<p>If you can't find an answer to your question below - contact us via hi@jsnation.com.</p>\n",
+    "faq__descr": "<p>Our team is always striving to provide the best support to help you with any questions related to conference attendance and to make information more transparent and instantly accessible, we've started gathering most frequently asked questions on the page below.</p>\n<p>If you can't find an answer to your question below - contact us via hi@nodeday,uk.</p>\n",
     "performance__descr": "<p>In 2019, we initiated a Call for JavaScript Artists which allowed us to deliver a state-of-the-art afterparty program with audiovisual acts powered by NodeJS, WebGL, WebAudioAPI. Want to know the programme for 2020? <a href=\"#subscribe\">Follow us</a></p>\n"
   },
   "pages": {
     "main": {
-      "titleSeo": "Amsterdam JSNation Conference 2020",
+      "titleSeo": "Node Day UK Conference 2020, July 15-17",
+      "keywords": "",
       "description": null,
-      "seoDescription": "Amsterdam JSNation is a 2-day event focusing exclusively on JavaScript development. At our conference, inspiring talks meet fresh ideas and good people - you’ll hear all you need to know about the latest trends in JS tech, see stellar speakers, meet new friends and colleagues, and connect with key people in the industry. Plus, all of that in one of Europe's top destinations.",
+      "seoDescription": "Fully packed day of your favorite Node.js content, covering most up-to-date insights from the community.",
       "key": "main",
-      "titlePage": "NodeJS development 18+",
-      "pageSlogan": "JavaScript is 1 on demand programming language in the world with 25 millions of developers behind it. Meet the ones who shape out the now and the future of the prospering nation.",
+      "titlePage": "Node Day UK",
+      "pageSlogan": "Fully packed day of your favorite Node.js content, covering most up-to-date insights from the community.",
       "pageStatistics": {
         "hero": [
           {
-            "num": 2,
-            "title": "tracks",
-            "descr": "General<br/>Node JS"
+            "num": "20+",
+            "title": "speakers",
+            "descr": "High-load, Serverless,<br/>GraphQL, IoT"
           },
           {
             "num": 3,
@@ -27,79 +28,19 @@
         ],
         "techScope": [
           {
-            "image": "img/techs_webpack.png",
-            "title": "Webpack"
-          },
-          {
-            "image": "https://media.graphcms.com/hUzKbWbTe2JPccwz4doH",
-            "title": "Deno"
-          },
-          {
-            "image": "img/techs_node.png",
-            "title": "Node.js"
-          },
-          {
-            "image": "img/techs_three.png",
-            "title": "Three.js"
-          },
-          {
-            "image": "https://media.graphcms.com/pcyqiYpDRXGtdYeSprs8",
-            "title": "Svelte"
-          },
-          {
-            "image": "img/techs_vue.png",
-            "title": "Vue.js"
-          },
-          {
-            "image": "img/techs_angular.png",
-            "title": "Angular"
-          },
-          {
-            "image": "img/techs_nestjs_inv.png",
-            "title": "NestJS"
+            "image": "/img/fastify.png",
+            "title": "Fastify"
           },
           {
             "image": "https://media.graphcms.com/mkPnhEJETVJMOTS7Xl8Q",
             "title": "TypeScript"
-          },
-          {
-            "image": "img/techs_babel.png?v2",
-            "_title": "Babel"
-          },
-          {
-            "image": "img/techs_rxjs.png",
-            "_title": "RX.js"
-          },
-          {
-            "image": "img/techs_mobx.png",
-            "_title": "MobX"
-          },
-          {
-            "image": "img/techs_cycle.png",
-            "_title": "Cycle"
-          },
-          {
-            "image": "img/techs_cypres.png",
-            "_title": "Cypress"
-          },
-          {
-            "image": "img/techs_pixi.png?v2",
-            "_title": "Pixi"
-          },
-          {
-            "image": "img/techs_babylon.png",
-            "_title": "Babylon"
-          },
-          {
-            "image": "img/techs_webdriver.png",
-            "_title": "Webdriver.io"
           }
         ]
       },
       "locInfo": [
         {
           "icon": "calendar",
-          "desc": "17 July, 2020"
+          "desc": "15-17 July, 2020"
         },
         {
           "icon": "location",
@@ -107,7 +48,6 @@
         }
       ],
       "themeColor": null,
-      "keywords": "javascript, conference, amsterdamjs, jsnation, vuejs, react, angular, frameworks",
       "pageNavigation": {
         "headerNav": [
           {
@@ -201,7 +141,7 @@
     "workshops": {
       "titleSeo": "Workshops at Amsterdam JSNation Conference",
       "description": null,
-      "seoDescription": "Amsterdam JSNation is a 3-day event focusing exclusively on JavaScript development. At our conference, inspiring talks meet fresh ideas and good people - you’ll hear all you need to know about the latest trends in JS tech, see stellar speakers, meet new friends and colleagues, and connect with key people in the industry. Plus, all of that in one of Europe's top destinations.",
+      "seoDescription": null,
       "key": "workshops",
       "titlePage": "Learn from the best cherry-picked trainers",
       "pageSlogan": "JavaScript is #1 on demand programming language in the world with 25 millions of developers behind it. Meet the ones who shape out the now and the future of the prospering nation.",
@@ -262,13 +202,13 @@
     "id": "ck0zi9xnrpi2z0b54q0n7clnr",
     "status": "PUBLISHED",
     "city": "Amsterdam",
-    "url": "https://jsnation.com",
-    "title": "Amsterdam_JSNation",
-    "slackUrl": "https://jsnation.com/slack",
-    "twitterUrl": "https://twitter.com/thejsnation",
-    "facebookUrl": "https://www.facebook.com/thejsnation",
-    "mediumUrl": "https://medium.com/@amsterdamjs",
-    "youtubeUrl": "https://www.youtube.com/JSNation",
+    "url": "https://nodeday.uk",
+    "title": "Node Day UK Conference 2020",
+    "slackUrl": "",
+    "twitterUrl": "https://twitter.com/nodedayuk",
+    "facebookUrl": "https://www.facebook.com/nodedayuk",
+    "mediumUrl": "",
+    "youtubeUrl": "",
     "codeOfConductIntro": "\n",
     "codeOfConductMain": "\n"
   },
@@ -3363,12 +3303,12 @@
         {
           "category": "Tickets, invoices, refunds",
           "question": "<p>Can you issue an invoice for my order?</p>\n",
-          "answer": "<p>Yes, it is possible to pay via invoice. Please, send your company details to <a href=\"mailto:hi@jsnation.com\">hi@jsnation.com</a> and we will issue it for you: </p>\n<ul>\n<li>company name</li>\n<li>company address</li>\n<li>VAT number.</li>\n</ul>\n<p>As soon as we receive the payment, we'll send you a promo-code to activate the tickets.</p>\n"
+          "answer": "<p>Yes, it is possible to pay via invoice. Please, send your company details to <a href=\"mailto:hi@nodeday.uk\">hi@nodeday,uk</a> and we will issue it for you: </p>\n<ul>\n<li>company name</li>\n<li>company address</li>\n<li>VAT number.</li>\n</ul>\n<p>As soon as we receive the payment, we'll send you a promo-code to activate the tickets.</p>\n"
         },
         {
           "category": "Tickets, invoices, refunds",
           "question": "<p>I bought a ticket to workshop, but have another date in my ticket. What is the correct date? </p>\n",
-          "answer": "<p>Please, be attentive with the dates! </p>\n<p>The correct date is indicated in the name of the ticket – example: “Advanced React Workshop (June 4)”.\nThe ticket will also state the main date of the conference – June 5, although you might not have bought a ticket to the conference itself – this is how eventbrite works, and we cannot change it, unfortunately. Pay attention to what the name of the workshop says. </p>\n<p>If you have doubts – consult the website or email us hi@jsnation.com.</p>\n"
+          "answer": "<p>Please, be attentive with the dates! </p>\n<p>The correct date is indicated in the name of the ticket – example: “Advanced React Workshop (June 4)”.\nThe ticket will also state the main date of the conference – June 5, although you might not have bought a ticket to the conference itself – this is how eventbrite works, and we cannot change it, unfortunately. Pay attention to what the name of the workshop says. </p>\n<p>If you have doubts – consult the website or email us hi@nodeday,uk.</p>\n"
         }
       ]
     },
@@ -3453,7 +3393,7 @@
         {
           "category": "Other questions",
           "question": "<p>We are a community/also a tech conference. Could we collaborate with your conference?</p>\n",
-          "answer": "<p>Yes, of course! We’d be happy if you become our info-partner. Please, drop us a line at <a href=\"mailto:hi@jsnation.com\">hi@jsnation.com</a> and we’ll get back to you with all the information.</p>\n"
+          "answer": "<p>Yes, of course! We’d be happy if you become our info-partner. Please, drop us a line at <a href=\"mailto:hi@nodeday.uk\">hi@nodeday,uk</a> and we’ll get back to you with all the information.</p>\n"
         }
       ]
     },
@@ -3463,7 +3403,7 @@
         {
           "category": "Visa",
           "question": "<p>Can you issue an invitation letter to apply for a visa?</p>\n",
-          "answer": "<p>Yes, we can issue an invitation letter to make the process of getting visa easier. Please, send to <a href=\"mailto:hi@jsnation.com\">hi@jsnation.com</a> the following details according to your travel document, as well as your ticket to the conference:</p>\n<ul>\n<li>First name:</li>\n<li>Last name:</li>\n<li>Date of birth:</li>\n<li>Nationality:</li>\n<li>Passport number:</li>\n<li>Date of issue:</li>\n<li>Expiration date:</li>\n</ul>\n"
+          "answer": "<p>Yes, we can issue an invitation letter to make the process of getting visa easier. Please, send to <a href=\"mailto:hi@nodeday.uk\">hi@nodeday,uk</a> the following details according to your travel document, as well as your ticket to the conference:</p>\n<ul>\n<li>First name:</li>\n<li>Last name:</li>\n<li>Date of birth:</li>\n<li>Nationality:</li>\n<li>Passport number:</li>\n<li>Date of issue:</li>\n<li>Expiration date:</li>\n</ul>\n"
         }
       ]
     }
@@ -3615,7 +3555,7 @@
     "applyButtonLink": "https://docs.google.com/forms/d/e/1FAIpQLSe17OFAUlxF6zzml3BozkwUGX72X7vtHEkScxFDtjEBhZUo6Q/viewform",
     "showApplyButton": true,
     "sponsorButtonText": "Sponsor diversity tickets",
-    "sponsorButtonLink": "hi@jsnation.com",
+    "sponsorButtonLink": "hi@nodeday,uk",
     "showSponsorButton": true,
     "sponsors": [
       {

@@ -27,38 +27,46 @@
 					{% endif %}
 				</nav>
 
-				<a class="header__tickets basic-btn btn-white" href="#">Buy tickets {{mixins.icon('arrow-link')}}</a>
+<!--				<a class="header__tickets basic-btn btn-white" href="#">Buy tickets {{mixins.icon('arrow-link')}}</a>-->
 			</div>
 
 			<ul class="socials">
+        {% if conference.facebookUrl %}
 				<li class="socials__item">
-					<a href="https://www.facebook.com/ReactAdvanced" target="_blank" class="socials__link">
+					<a href="{{ conference.facebookUrl }}" target="_blank" class="socials__link">
 						<svg class="socials__img fb" role="img" aria-hidden="true">
 							<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#fb"></use>
 						</svg>
 					</a>
 				</li>
+        {% endif %}
+        {% if conference.twitterUrl %}
 				<li class="socials__item">
-					<a href="http://twitter.com/reactadvanced" target="_blank" class="socials__link">
+					<a href="{{ conference.twitterUrl }}" target="_blank" class="socials__link">
 						<svg class="socials__img tw" role="img" aria-hidden="true">
 							<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#tw"></use>
 						</svg>
 					</a>
 				</li>
+        {% endif %}
+        {% if conference.youtubeUrl %}
 				<li class="socials__item">
-					<a href="https://youtube.com/c/ReactConferences" target="_blank" class="socials__link">
+					<a href="{{ conference.youtubeUrl }}" target="_blank" class="socials__link">
 						<svg class="socials__img yt" role="img" aria-hidden="true">
 							<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#yt"></use>
 						</svg>
 					</a>
 				</li>
+        {% endif %}
+        {% if conference.mediumUrl %}
 				<li class="socials__item">
-					<a href="https://medium.com/@ReactAdvanced" target="_blank" class="socials__link">
+					<a href="{{ conference.mediumUrl }}" target="_blank" class="socials__link">
 						<svg class="socials__img med" role="img" aria-hidden="true">
 							<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#med"></use>
 						</svg>
 					</a>
 				</li>
+        {% endif %}
 			</ul>
 		</div>
 	</header><!-- .header -->

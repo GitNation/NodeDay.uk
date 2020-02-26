@@ -306,7 +306,7 @@ Object {
 ",
         },
         Object {
-          "answer": "<p>Yes, it is possible to pay via invoice. Please, send your company details to <a href=\\"mailto:hi@jsnation.com\\">hi@jsnation.com</a> and we will issue it for you: </p>
+          "answer": "<p>Yes, it is possible to pay via invoice. Please, send your company details to <a href=\\"mailto:hi@nodeday.uk\\">hi@jsnation.com</a> and we will issue it for you: </p>
 <ul>
 <li>company name</li>
 <li>company address</li>
@@ -433,7 +433,7 @@ The ticket will also state the main date of the conference – June 5, although 
 ",
         },
         Object {
-          "answer": "<p>Yes, of course! We’d be happy if you become our info-partner. Please, drop us a line at <a href=\\"mailto:hi@jsnation.com\\">hi@jsnation.com</a> and we’ll get back to you with all the information.</p>
+          "answer": "<p>Yes, of course! We’d be happy if you become our info-partner. Please, drop us a line at <a href=\\"mailto:hi@nodeday.uk\\">hi@jsnation.com</a> and we’ll get back to you with all the information.</p>
 ",
           "category": "Other questions",
           "question": "<p>We are a community/also a tech conference. Could we collaborate with your conference?</p>
@@ -445,7 +445,7 @@ The ticket will also state the main date of the conference – June 5, although 
     Object {
       "items": Array [
         Object {
-          "answer": "<p>Yes, we can issue an invitation letter to make the process of getting visa easier. Please, send to <a href=\\"mailto:hi@jsnation.com\\">hi@jsnation.com</a> the following details according to your travel document, as well as your ticket to the conference:</p>
+          "answer": "<p>Yes, we can issue an invitation letter to make the process of getting visa easier. Please, send to <a href=\\"mailto:hi@nodeday.uk\\">hi@jsnation.com</a> the following details according to your travel document, as well as your ticket to the conference:</p>
 <ul>
 <li>First name:</li>
 <li>Last name:</li>

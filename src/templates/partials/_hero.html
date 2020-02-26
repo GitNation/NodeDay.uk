@@ -4,14 +4,14 @@
 		<div class="hero__img">
 			<img src="img/hero-img.svg">
 		</div>
-		
+
 		<div class="hero__content">
 			<h2 class="hero__title">{{ pages[pageKey].titlePage }}</h2>
 			<p class="hero__desc">{{ pages[pageKey].pageSlogan }}</p>
-			
+
 			<div class="btns-wrap">
-				<a class="basic-btn" href="#">Follow for updates {{mixins.icon('arrow-link')}}</a>
-				<a class="basic-btn bordered" href="#">Сontact {{mixins.icon('arrow-link')}}</a>
+				<a class="basic-btn" href="{{ conference.twitterUrl }}">Follow for updates {{mixins.icon('arrow-link')}}</a>
+				<a class="basic-btn bordered" href="mailto:hi@nodeday.uk">Сontact {{mixins.icon('arrow-link')}}</a>
 			</div>
 		</div>
 
@@ -32,36 +32,44 @@
 				</div>
 			{% endfor %}
 		</div>
-		
+
 		<ul class="socials">
-			<li class="socials__item">
-				<a href="https://www.facebook.com/ReactAdvanced" target="_blank" class="socials__link">
-					<svg class="socials__img fb" role="img" aria-hidden="true">
-						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#fb"></use>
-					</svg>
-				</a>
-			</li>
-			<li class="socials__item">
-				<a href="http://twitter.com/reactadvanced" target="_blank" class="socials__link">
-					<svg class="socials__img tw" role="img" aria-hidden="true">
-						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#tw"></use>
-					</svg>
-				</a>
-			</li>
-			<li class="socials__item">
-				<a href="https://youtube.com/c/ReactConferences" target="_blank" class="socials__link">
-					<svg class="socials__img yt" role="img" aria-hidden="true">
-						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#yt"></use>
-					</svg>
-				</a>
-			</li>
-			<li class="socials__item">
-				<a href="https://medium.com/@ReactAdvanced" target="_blank" class="socials__link">
-					<svg class="socials__img med" role="img" aria-hidden="true">
-						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#med"></use>
-					</svg>
-				</a>
-			</li>
+			  {% if conference.facebookUrl %}
+				<li class="socials__item">
+					<a href="{{ conference.facebookUrl }}" target="_blank" class="socials__link">
+						<svg class="socials__img fb" role="img" aria-hidden="true">
+							<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#fb"></use>
+						</svg>
+					</a>
+				</li>
+        {% endif %}
+        {% if conference.twitterUrl %}
+				<li class="socials__item">
+					<a href="{{ conference.twitterUrl }}" target="_blank" class="socials__link">
+						<svg class="socials__img tw" role="img" aria-hidden="true">
+							<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#tw"></use>
+						</svg>
+					</a>
+				</li>
+        {% endif %}
+        {% if conference.youtubeUrl %}
+				<li class="socials__item">
+					<a href="{{ conference.youtubeUrl }}" target="_blank" class="socials__link">
+						<svg class="socials__img yt" role="img" aria-hidden="true">
+							<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#yt"></use>
+						</svg>
+					</a>
+				</li>
+        {% endif %}
+        {% if conference.mediumUrl %}
+				<li class="socials__item">
+					<a href="{{ conference.mediumUrl }}" target="_blank" class="socials__link">
+						<svg class="socials__img med" role="img" aria-hidden="true">
+							<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#med"></use>
+						</svg>
+					</a>
+				</li>
+        {% endif %}
 		</ul>
 	</div>
 </section>

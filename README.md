@@ -12,7 +12,7 @@ Clone this repo and then in command line type:
 * `yarn storybook` - start Storybook locally (http://localhost:6006/)
 * `yarn test:watch` - run jest test in watch mode
 
-Deployed Storybook: https://gitnation.github.io/JSNation.com (with production credentials)
+Deployed Storybook: https://gitnation.github.io/NodeDay.uk (with production credentials)
 
 
 --

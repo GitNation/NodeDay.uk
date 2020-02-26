@@ -7,23 +7,23 @@
 
 				<ul class="footer__nav">
 					<li><a href="/sponsors">Sponsorship Opportunities</a></li>
-					<li><a href="/coc">Code Of Conduct</a></li>
-					<li><a href="mailto:hi@jsnation.com">Email Us!</a></li>
-					<li><a href="/faq">FAQ</a></li>
+<!--					<li><a href="/coc">Code Of Conduct</a></li>-->
+					<li><a href="mailto:hi@nodeday.uk">Email Us!</a></li>
+<!--					<li><a href="/faq">FAQ</a></li>-->
 				</ul>
 			</div>
-			
+
 			<div class="footer__socials">
 				<div class="footer__title title">Get social</div>
 
 				<ul class="socials">
-					<li class="socials__item"><a href="{{ conference.facebookUrl }}" target="_blank" class="socials__link">{{mixins.icon('fb')}}</a></li>
-					<li class="socials__item"><a href="{{ conference.twitterUrl }}" target="_blank" class="socials__link">{{mixins.icon('tw')}}</a></li>
-					<li class="socials__item"><a href="{{ conference.youtubeUrl }}" target="_blank" class="socials__link">{{mixins.icon('yt')}}</a></li>
-					<li class="socials__item"><a href="{{ conference.youtubeUrl }}" target="_blank" class="socials__link">{{mixins.icon('med')}}</a></li>
+					{% if conference.facebookUrl %}<li class="socials__item"><a href="{{ conference.facebookUrl }}" target="_blank" class="socials__link">{{mixins.icon('fb')}}</a></li>{% endif %}
+					{% if conference.twitterUrl %}<li class="socials__item"><a href="{{ conference.twitterUrl }}" target="_blank" class="socials__link">{{mixins.icon('tw')}}</a></li>{% endif %}
+					{% if conference.youtubeUrl %}<li class="socials__item"><a href="{{ conference.youtubeUrl }}" target="_blank" class="socials__link">{{mixins.icon('yt')}}</a></li>{% endif %}
+					{% if conference.mediumUrl %}<li class="socials__item"><a href="{{ conference.mediumUrl }}" target="_blank" class="socials__link">{{mixins.icon('med')}}</a></li>{% endif %}
 				</ul>
 			</div>
-			
+
 		</div>
 	</div>
 

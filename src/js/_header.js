@@ -31,6 +31,4 @@ export default function header() {
       header.removeClass(CLASSES.sticked);
     }
   });
-
-  console.log('asdasd');
 }
